@@ -28,7 +28,7 @@ const Work: React.FC<WorkType> = ({ title, img, link, type, languages, descripti
 				<img src={img} alt={title} className="w-full h-full rounded-md" />
 			</div>
 			<div className="flex justify-start items-center flex-col md:items-start space-y-4 md:justify-start !mt-0">
-				<div className="flex space-x-2 justify-center items-center md:justify-start !mt-4 md:mt-0">
+				<div className="flex space-x-2 justify-center items-center md:justify-start !mt-4 md:!mt-0">
 					<a
 						href={link}
 						target="_blank"
