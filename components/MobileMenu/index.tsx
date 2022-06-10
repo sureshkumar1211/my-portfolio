@@ -1,6 +1,6 @@
 import React from "react";
-import { GiHamburgerMenu } from "react-icons/Gi";
-import { MdClose } from "react-icons/Md";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { MdClose } from "react-icons/md";
 
 const MobileMenu: React.FC<any> = ({ showMenu, setShowMenu }) => {
 	return (
