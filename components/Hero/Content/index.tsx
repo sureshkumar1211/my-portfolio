@@ -13,7 +13,7 @@ const Content = () => {
 			<h2 className="text-xl md:text-3xl" dangerouslySetInnerHTML={{ __html: contentObject.title }} />
 			<p className="text-sm font-light leading-relaxed text-gray-600">{contentObject.description}</p>
 			<div>
-				<Link href="/static/Suresh/MY_RESUME.pdf" target={"_blank"}>
+				<Link href="/static/Suresh/Resume.pdf" target={"_blank"}>
 					<a className="mt-4 rounded-md hover:bg-primary-color text-sm px-4 py-2 bg-primary-color-700 text-white">
 						Download Resume
 					</a>
